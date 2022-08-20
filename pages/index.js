@@ -12,7 +12,7 @@ export default function Home() {
   `;
   const getData = async () => {
     const d = await request(
-      'https://nextjs-ib3qdo--3000.local.webcontainer.io/api/graphql',
+      'https://nextjs-graphql-pi.vercel.app/api/graphql',
       query
     );
 

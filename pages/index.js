@@ -6,7 +6,8 @@ export default function Home() {
   const query = gql`
     {
       client(id:"1"){
-        ${keyword} 
+       fistName
+       lastName
       }
     }
   `;
